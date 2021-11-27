@@ -7,24 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB206E6527123BC000357F57 /* shuffling-cards-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB206E6427123BBF00357F57 /* shuffling-cards-2.wav */; };
+		EB206E6727123C4C00357F57 /* shuffling-cards-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB206E6627123C4C00357F57 /* shuffling-cards-2.mp3 */; };
+		EB327EB52744B451006AB24D /* boing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB327EB42744B451006AB24D /* boing.mp3 */; };
+		EB327EB72744C7AA006AB24D /* aoooga.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB327EB62744C7AA006AB24D /* aoooga.mp3 */; };
+		EB417FD2270F360D0016D837 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB417FD1270F360D0016D837 /* SoundPlayer.swift */; };
+		EB52020226F6C8D800F8BA5A /* ThemeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB52020126F6C8D700F8BA5A /* ThemeListView.swift */; };
 		EB6A36DC26E7BD5700D06FCC /* ConcentrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A36DB26E7BD5700D06FCC /* ConcentrationApp.swift */; };
-		EB6A36DE26E7BD5700D06FCC /* EmojiGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A36DD26E7BD5700D06FCC /* EmojiGameView.swift */; };
+		EB6A36DE26E7BD5700D06FCC /* ConcentrationGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A36DD26E7BD5700D06FCC /* ConcentrationGameView.swift */; };
 		EB6A36E026E7BD5B00D06FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6A36DF26E7BD5B00D06FCC /* Assets.xcassets */; };
 		EB6A36E326E7BD5B00D06FCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6A36E226E7BD5B00D06FCC /* Preview Assets.xcassets */; };
 		EB6A36EA26E7BEA300D06FCC /* ConcentrationGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A36E926E7BEA300D06FCC /* ConcentrationGame.swift */; };
-		EB6A36EC26E7C03B00D06FCC /* EmojiConcentrationGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A36EB26E7C03B00D06FCC /* EmojiConcentrationGame.swift */; };
+		EB6A36EC26E7C03B00D06FCC /* ConcentrationGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A36EB26E7C03B00D06FCC /* ConcentrationGameViewModel.swift */; };
+		EB75AC8C26F0EC8900701A7F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB75AC8B26F0EC8900701A7F /* Array.swift */; };
 		EB92DECA26EA5131009A5058 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92DEC926EA5131009A5058 /* CardView.swift */; };
+		EB92DECD26EA5BA2009A5058 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92DECC26EA5BA2009A5058 /* Array+Identifiable.swift */; };
+		EBA8C53C26EA79D500CFDE8F /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA8C53B26EA79D500CFDE8F /* AspectVGrid.swift */; };
+		EBA8C53E26EA871E00CFDE8F /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA8C53D26EA871E00CFDE8F /* Pie.swift */; };
+		EBA8C54026EACCE900CFDE8F /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA8C53F26EACCE800CFDE8F /* Cardify.swift */; };
+		EBC1BF07270B88B7001A6499 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC1BF06270B88B7001A6499 /* Theme.swift */; };
+		EBC1BF09270B8F92001A6499 /* String+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC1BF08270B8F92001A6499 /* String+Color.swift */; };
+		EBC1BF0B270B9143001A6499 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC1BF0A270B9143001A6499 /* MainMenuView.swift */; };
+		EBC1BF11270BAC06001A6499 /* PolygonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC1BF10270BAC06001A6499 /* PolygonShape.swift */; };
+		EBF2F253270CAFA4001E0E9B /* GasCan.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2F252270CAFA4001E0E9B /* GasCan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB206E6427123BBF00357F57 /* shuffling-cards-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "shuffling-cards-2.wav"; sourceTree = "<group>"; };
+		EB206E6627123C4C00357F57 /* shuffling-cards-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "shuffling-cards-2.mp3"; sourceTree = "<group>"; };
+		EB327EB42744B451006AB24D /* boing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boing.mp3; sourceTree = "<group>"; };
+		EB327EB62744C7AA006AB24D /* aoooga.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aoooga.mp3; sourceTree = "<group>"; };
+		EB417FD1270F360D0016D837 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		EB52020126F6C8D700F8BA5A /* ThemeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeListView.swift; sourceTree = "<group>"; };
 		EB6A36D826E7BD5700D06FCC /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6A36DB26E7BD5700D06FCC /* ConcentrationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationApp.swift; sourceTree = "<group>"; };
-		EB6A36DD26E7BD5700D06FCC /* EmojiGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiGameView.swift; sourceTree = "<group>"; };
+		EB6A36DD26E7BD5700D06FCC /* ConcentrationGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationGameView.swift; sourceTree = "<group>"; };
 		EB6A36DF26E7BD5B00D06FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB6A36E226E7BD5B00D06FCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB6A36E926E7BEA300D06FCC /* ConcentrationGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationGame.swift; sourceTree = "<group>"; };
-		EB6A36EB26E7C03B00D06FCC /* EmojiConcentrationGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiConcentrationGame.swift; sourceTree = "<group>"; };
+		EB6A36EB26E7C03B00D06FCC /* ConcentrationGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationGameViewModel.swift; sourceTree = "<group>"; };
+		EB75AC8B26F0EC8900701A7F /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		EB92DEC926EA5131009A5058 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		EB92DECC26EA5BA2009A5058 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
+		EBA8C53B26EA79D500CFDE8F /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
+		EBA8C53D26EA871E00CFDE8F /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		EBA8C53F26EACCE800CFDE8F /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
+		EBC1BF06270B88B7001A6499 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		EBC1BF08270B8F92001A6499 /* String+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Color.swift"; sourceTree = "<group>"; };
+		EBC1BF0A270B9143001A6499 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		EBC1BF10270BAC06001A6499 /* PolygonShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonShape.swift; sourceTree = "<group>"; };
+		EBF2F252270CAFA4001E0E9B /* GasCan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasCan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +70,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB417FD3270F36B30016D837 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				EB206E6427123BBF00357F57 /* shuffling-cards-2.wav */,
+				EB327EB62744C7AA006AB24D /* aoooga.mp3 */,
+				EB327EB42744B451006AB24D /* boing.mp3 */,
+				EB206E6627123C4C00357F57 /* shuffling-cards-2.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
 		EB6A36CF26E7BD5700D06FCC = {
 			isa = PBXGroup;
 			children = (
@@ -57,10 +100,13 @@
 		EB6A36DA26E7BD5700D06FCC /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
+				EB6A36DB26E7BD5700D06FCC /* ConcentrationApp.swift */,
 				EB6A36EE26E7C4A800D06FCC /* Model */,
 				EB6A36EF26E7C4AE00D06FCC /* View */,
 				EB6A36ED26E7C4A200D06FCC /* ViewModel */,
+				EB92DECB26EA5B96009A5058 /* Utility */,
 				EB6A36DF26E7BD5B00D06FCC /* Assets.xcassets */,
+				EB417FD3270F36B30016D837 /* Audio */,
 				EB6A36E126E7BD5B00D06FCC /* Preview Content */,
 			);
 			path = Concentration;
@@ -77,7 +123,7 @@
 		EB6A36ED26E7C4A200D06FCC /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				EB6A36EB26E7C03B00D06FCC /* EmojiConcentrationGame.swift */,
+				EB6A36EB26E7C03B00D06FCC /* ConcentrationGameViewModel.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -86,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				EB6A36E926E7BEA300D06FCC /* ConcentrationGame.swift */,
+				EBC1BF06270B88B7001A6499 /* Theme.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -93,11 +140,60 @@
 		EB6A36EF26E7C4AE00D06FCC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				EB6A36DB26E7BD5700D06FCC /* ConcentrationApp.swift */,
-				EB6A36DD26E7BD5700D06FCC /* EmojiGameView.swift */,
-				EB92DEC926EA5131009A5058 /* CardView.swift */,
+				EBBE2BDA2715D79D000C36E4 /* Menu Views */,
+				EBBE2BDB2715D7C3000C36E4 /* Game Views */,
+				EBBE2BDC2715D7D1000C36E4 /* Card Views */,
+				EBBE2BD92715D785000C36E4 /* Shapes */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		EB92DECB26EA5B96009A5058 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				EB75AC8B26F0EC8900701A7F /* Array.swift */,
+				EB92DECC26EA5BA2009A5058 /* Array+Identifiable.swift */,
+				EBC1BF08270B8F92001A6499 /* String+Color.swift */,
+				EB417FD1270F360D0016D837 /* SoundPlayer.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		EBBE2BD92715D785000C36E4 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				EBA8C53D26EA871E00CFDE8F /* Pie.swift */,
+				EBF2F252270CAFA4001E0E9B /* GasCan.swift */,
+				EBC1BF10270BAC06001A6499 /* PolygonShape.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		EBBE2BDA2715D79D000C36E4 /* Menu Views */ = {
+			isa = PBXGroup;
+			children = (
+				EBC1BF0A270B9143001A6499 /* MainMenuView.swift */,
+				EB52020126F6C8D700F8BA5A /* ThemeListView.swift */,
+			);
+			path = "Menu Views";
+			sourceTree = "<group>";
+		};
+		EBBE2BDB2715D7C3000C36E4 /* Game Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB6A36DD26E7BD5700D06FCC /* ConcentrationGameView.swift */,
+				EBA8C53B26EA79D500CFDE8F /* AspectVGrid.swift */,
+			);
+			path = "Game Views";
+			sourceTree = "<group>";
+		};
+		EBBE2BDC2715D7D1000C36E4 /* Card Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB92DEC926EA5131009A5058 /* CardView.swift */,
+				EBA8C53F26EACCE800CFDE8F /* Cardify.swift */,
+			);
+			path = "Card Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,7 +255,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB6A36E326E7BD5B00D06FCC /* Preview Assets.xcassets in Resources */,
+				EB327EB52744B451006AB24D /* boing.mp3 in Resources */,
 				EB6A36E026E7BD5B00D06FCC /* Assets.xcassets in Resources */,
+				EB206E6727123C4C00357F57 /* shuffling-cards-2.mp3 in Resources */,
+				EB206E6527123BC000357F57 /* shuffling-cards-2.wav in Resources */,
+				EB327EB72744C7AA006AB24D /* aoooga.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,11 +270,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB6A36EC26E7C03B00D06FCC /* EmojiConcentrationGame.swift in Sources */,
+				EB6A36EC26E7C03B00D06FCC /* ConcentrationGameViewModel.swift in Sources */,
+				EB75AC8C26F0EC8900701A7F /* Array.swift in Sources */,
+				EBC1BF11270BAC06001A6499 /* PolygonShape.swift in Sources */,
 				EB6A36EA26E7BEA300D06FCC /* ConcentrationGame.swift in Sources */,
-				EB6A36DE26E7BD5700D06FCC /* EmojiGameView.swift in Sources */,
+				EBA8C53C26EA79D500CFDE8F /* AspectVGrid.swift in Sources */,
+				EBA8C54026EACCE900CFDE8F /* Cardify.swift in Sources */,
+				EB6A36DE26E7BD5700D06FCC /* ConcentrationGameView.swift in Sources */,
+				EB417FD2270F360D0016D837 /* SoundPlayer.swift in Sources */,
 				EB6A36DC26E7BD5700D06FCC /* ConcentrationApp.swift in Sources */,
+				EB52020226F6C8D800F8BA5A /* ThemeListView.swift in Sources */,
+				EBF2F253270CAFA4001E0E9B /* GasCan.swift in Sources */,
+				EBC1BF0B270B9143001A6499 /* MainMenuView.swift in Sources */,
+				EBA8C53E26EA871E00CFDE8F /* Pie.swift in Sources */,
+				EB92DECD26EA5BA2009A5058 /* Array+Identifiable.swift in Sources */,
+				EBC1BF09270B8F92001A6499 /* String+Color.swift in Sources */,
 				EB92DECA26EA5131009A5058 /* CardView.swift in Sources */,
+				EBC1BF07270B88B7001A6499 /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +425,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -343,7 +455,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
